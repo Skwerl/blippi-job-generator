@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import * as Motion from "motion/react-client";
 import Main from '../Layouts/Main';
 
@@ -17,7 +18,7 @@ export default function Home() {
 
         <div className="button">
           <Motion.div whileHover={{ scale: 1.2 }}>
-            <img src="/images/button-go.png" />
+            <Link to="/quiz"><img src="/images/button-go.png" /></Link>
           </Motion.div>
         </div>
 
