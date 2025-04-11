@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Dimbo";
+  src:
+    url("/fonts/DimboRegular.woff2") format("woff2"),
+    url("/fonts/DimboRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .master_wrapper {
   background-color: #000;
   width: 100vw;
