@@ -1,4 +1,8 @@
 import React, { useEffect } from 'react';
+import Box from '@mui/material/Box';
+import AspectRatio from '@mui/joy/AspectRatio';
+
+import './Main.scss';
 
 export default function Main(props) {
 
@@ -8,8 +12,19 @@ export default function Main(props) {
         document.title = (!!pagetitle ? pagetitle : "Blippi Prototype");
     }, [pagetitle]);
 
-    return <React.Fragment>
-        {children}
-    </React.Fragment>
+    return <Box className="master_wrapper">
+
+        <AspectRatio sx={{ width: "100%", maxHeight: "100vh" }}>
+            <Box className="app_wrapper" style={{
+                backgroundImage: "url('/images/blippi-bg.jpg')",
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat"
+            }}><React.Fragment>
+                    {children}
+                </React.Fragment>
+            </Box>
+        </AspectRatio>
+
+    </Box >
 
 }
