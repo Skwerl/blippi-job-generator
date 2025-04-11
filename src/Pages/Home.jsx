@@ -21,6 +21,66 @@ export default function Home() {
           </Motion.div>
         </div>
 
+        <div className="character-blippi-1">
+          <Motion.div
+            animate={{
+              rotate: [0, 2, 0]
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatDelay: 1
+            }}>
+            <img src="/images/blippi-1.png" />
+          </Motion.div>
+        </div>
+
+        <div className="character-meekah-1">
+          <Motion.div
+            animate={{
+              rotate: [0, 2, 0]
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatDelay: 1
+            }}>
+            <img src="/images/meekah-1.png" />
+          </Motion.div>
+        </div>
+
+        <div className="character-blippi-2">
+          <Motion.div
+            animate={{
+              rotate: [0, -2, 0]
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatDelay: 1
+            }}>
+            <img src="/images/blippi-2.png" />
+          </Motion.div>
+        </div>
+
+        <div className="character-meekah-2">
+          <Motion.div
+            animate={{
+              rotate: [0, -2, 0]
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatDelay: 1
+            }}>
+            <img src="/images/meekah-2.png" />
+          </Motion.div>
+        </div>
+
       </div>
 
     </React.Fragment>
