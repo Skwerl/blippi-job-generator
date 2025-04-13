@@ -71,10 +71,33 @@ export const QUESTIONS = [
         header: "Question 3",
         question: "What is your favorite Blippi song?",
         choices: [
-            { label: "Excavator" },
-            { label: "Monster Truck Song" },
-            { label: "Fire Truck Song" },
-            { label: "Blippi Wiggle" }
+            {
+                label: "Excavator",
+                style: {
+                    backgroundImage: "url('/images/bg-construction.jpg')",
+                }
+            },
+            {
+                label: "Monster Truck Song",
+                style: {
+                    backgroundImage: "url('/images/bg-monstertruck.jpg')",
+                }
+
+            },
+            {
+                label: "Fire Truck Song",
+                style: {
+                    backgroundImage: "url('/images/bg-firetruck.jpg')",
+                }
+
+            },
+            {
+                label: "Blippi Wiggle",
+                style: {
+                    backgroundImage: "url('/images/bg-wiggle.jpg')",
+                }
+
+            }
         ]
     },
 ];
