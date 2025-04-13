@@ -6,14 +6,12 @@ export const QUESTIONS = [
             {
                 label: "Inside",
                 style: {
-                    fontSize: "0.7em",
                     backgroundImage: "url('/images/bg-inside.jpg')",
                 }
             },
             {
                 label: "Outside",
                 style: {
-                    fontSize: "0.7em",
                     backgroundImage: "url('/images/bg-outside.jpg')",
                 }
 
@@ -28,7 +26,6 @@ export const QUESTIONS = [
                 label: "Red",
                 style: {
                     color: "#fff",
-                    fontSize: "0.7em",
                     backgroundColor: "red"
                 }
             },
@@ -37,7 +34,6 @@ export const QUESTIONS = [
                 class: "no-shadow",
                 style: {
                     color: "#000",
-                    fontSize: "0.7em",
                     backgroundColor: "#fff"
                 }
             },
@@ -45,7 +41,6 @@ export const QUESTIONS = [
                 label: "Blue",
                 style: {
                     color: "#fff",
-                    fontSize: "0.7em",
                     backgroundColor: "blue"
                 }
             },
@@ -53,7 +48,6 @@ export const QUESTIONS = [
                 label: "Orange",
                 style: {
                     color: "#fff",
-                    fontSize: "0.7em",
                     backgroundColor: "orange"
                 }
             },
@@ -61,7 +55,6 @@ export const QUESTIONS = [
                 label: "Purple",
                 style: {
                     color: "#fff",
-                    fontSize: "0.7em",
                     backgroundColor: "purple"
                 }
             }
@@ -74,12 +67,14 @@ export const QUESTIONS = [
             {
                 label: "Excavator",
                 style: {
+                    fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-construction.jpg')",
                 }
             },
             {
                 label: "Monster Truck Song",
                 style: {
+                    fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-monstertruck.jpg')",
                 }
 
@@ -87,6 +82,7 @@ export const QUESTIONS = [
             {
                 label: "Fire Truck Song",
                 style: {
+                    fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-firetruck.jpg')",
                 }
 
@@ -94,6 +90,7 @@ export const QUESTIONS = [
             {
                 label: "Blippi Wiggle",
                 style: {
+                    fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-wiggle.jpg')",
                 }
 
