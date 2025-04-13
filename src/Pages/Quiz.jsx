@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import * as Motion from "motion/react-client";
 import Main from '../Layouts/Main';
-import { QUESTIONS, getResult } from '../Logic';
+import { QUESTIONS, RESULTS, getResult } from '../Logic';
 
 import './Quiz.scss';
 
@@ -30,10 +30,11 @@ export default function Quiz() {
         {!!jobResult
           ? <React.Fragment>
 
-            <div className="prompt">
+            <div className="prompt result">
               <Stack spacing={1}>
-                <span>Your future job:</span>
-                <span>{`${jobResult}!`}</span>
+                <span className="header">Your future job:</span>
+                <span className="job-title">{jobResult}</span>
+                <span className="job-description">{RESULTS[jobResult].description}</span>
               </Stack>
             </div>
 

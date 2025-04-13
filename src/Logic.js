@@ -99,6 +99,39 @@ export const QUESTIONS = [
     },
 ];
 
+export const RESULTS = {
+    "Art Teacher": {
+        description: "Art Teachers show students how to shape clay, mix paints, and add details to make art."
+    },
+    "Astronaut": {
+        description: "Astronauts fly rocket ships and use space suits to explore the moon."
+    },
+    "Construction Worker": {
+        description: "Construction workers use trucks and tools to build something awesome!"
+    },
+    "Dancer": {
+        description: "Dancers move their bodies to the rhythm of music and combine steps into a routine."
+    },
+    "Doctor": {
+        description: "Doctors use tests and medical instruments to make sure their patients are healthy."
+    },
+    "Farmer": {
+        description: "Farmers feed animals, give them exercise and a place to live. They are very caring!"
+    },
+    "Firefighter": {
+        description: "Firefighters are brave and use a hose and ladder to rescue people."
+    },
+    "Grocery Worker": {
+        description: "Grocery Workers help customers find groceries and check out grocery orders."
+    },
+    "Monster Truck Driver": {
+        description: "Monster Truck Drivers have special vehicles to put on a great show!"
+    },
+    "Pizza Chef": {
+        description: "Pizza chefs gather ingredients and follow a recipe to make delicious pizza."
+    }
+};
+
 export const getResult = (answers) => {
     let result;
     if (answers[0] === 0) {

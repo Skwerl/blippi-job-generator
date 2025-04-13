@@ -29,6 +29,19 @@
     &.prompt {
       top: 12%;
       height: 30%;
+      padding: 0 40px;
+    }
+    &.result {
+      .header {
+        font-size: 0.7em;
+      }
+      .job-title {
+        font-size: 1.4em;
+      }
+      .job-description {
+        font-size: 0.7em;
+        line-height: 1em;
+      }
     }
 
     &.choices {
