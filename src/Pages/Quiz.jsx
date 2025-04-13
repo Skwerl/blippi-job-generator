@@ -54,7 +54,7 @@ export default function Quiz() {
 
               {QUESTIONS[currentQuestion].choices.map((choice, index) => <React.Fragment key={index}>
                 <Motion.div whileHover={{ scale: 1.1 }}>
-                  <Box className="choice" style={choice.style} onClick={() => chooseOption(index)}>
+                  <Box className={`choice ${choice.class}`} style={choice.style} onClick={() => chooseOption(index)}>
                     {choice.label}
                   </Box>
                 </Motion.div>

@@ -3,8 +3,21 @@ export const QUESTIONS = [
         header: "Question 1",
         question: "What is your favorite place to play?",
         choices: [
-            { label: "Inside" },
-            { label: "Outside" }
+            {
+                label: "Inside",
+                style: {
+                    fontSize: "0.7em",
+                    backgroundImage: "url('/images/bg-inside.jpg')",
+                }
+            },
+            {
+                label: "Outside",
+                style: {
+                    fontSize: "0.7em",
+                    backgroundImage: "url('/images/bg-outside.jpg')",
+                }
+
+            }
         ]
     },
     {
@@ -13,23 +26,44 @@ export const QUESTIONS = [
         choices: [
             {
                 label: "Red",
-                style: { color: "#fff", backgroundColor: "red" }
+                style: {
+                    color: "#fff",
+                    fontSize: "0.7em",
+                    backgroundColor: "red"
+                }
             },
             {
                 label: "White",
-                style: { color: "#000", backgroundColor: "#fff" }
+                class: "no-shadow",
+                style: {
+                    color: "#000",
+                    fontSize: "0.7em",
+                    backgroundColor: "#fff"
+                }
             },
             {
                 label: "Blue",
-                style: { color: "#fff", backgroundColor: "blue" }
+                style: {
+                    color: "#fff",
+                    fontSize: "0.7em",
+                    backgroundColor: "blue"
+                }
             },
             {
                 label: "Orange",
-                style: { color: "#fff", backgroundColor: "orange" }
+                style: {
+                    color: "#fff",
+                    fontSize: "0.7em",
+                    backgroundColor: "orange"
+                }
             },
             {
                 label: "Purple",
-                style: { color: "#fff", backgroundColor: "purple" }
+                style: {
+                    color: "#fff",
+                    fontSize: "0.7em",
+                    backgroundColor: "purple"
+                }
             }
         ]
     },
