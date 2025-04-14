@@ -51,14 +51,16 @@ export default function Quiz() {
 
         {!!!jobResult && <React.Fragment>
           <div className="choices">
-            <Stack spacing={2} direction="row" justifyContent="center">
+            <Stack spacing={2} direction="row" justifyContent="center" flexWrap="wrap">
 
               {QUESTIONS[currentQuestion].choices.map((choice, index) => <React.Fragment key={index}>
-                <Motion.div whileHover={{ scale: 1.1 }}>
-                  <Box className={`choice ${choice.class}`} style={choice.style} onClick={() => chooseOption(index)}>
-                    {choice.label}
-                  </Box>
-                </Motion.div>
+                <Box className="choice-wrapper">
+                  <Motion.div whileHover={{ scale: 1.1 }}>
+                    <Box className={`choice ${choice.class}`} style={choice.style} onClick={() => chooseOption(index)}>
+                      {choice.label}
+                    </Box>
+                  </Motion.div>
+                </Box>
               </React.Fragment>)}
 
             </Stack>
