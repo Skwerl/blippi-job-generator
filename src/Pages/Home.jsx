@@ -52,7 +52,7 @@ export default function Home() {
           </Motion.div>
         </div>
 
-        <div className="character-blippi-2">
+        <div className="character-blippi-2 mobile-hide">
           <Motion.div
             animate={{
               rotate: [0, -2, 0]
@@ -67,7 +67,7 @@ export default function Home() {
           </Motion.div>
         </div>
 
-        <div className="character-meekah-2">
+        <div className="character-meekah-2 mobile-hide">
           <Motion.div
             animate={{
               rotate: [0, -2, 0]

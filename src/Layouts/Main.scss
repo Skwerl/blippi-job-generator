@@ -18,7 +18,14 @@
   align-items: center;
 }
 
-// .app_wrapper {
-//   width: 20px;
-//   height: 20px;
-// }
+@media only screen and (max-width: 666px) {
+  .mobile-hide {
+    display: none;
+  }
+
+  .MuiAspectRatio-root,
+  .MuiAspectRatio-content {
+    height: 100vh !important;
+    max-height: 100vh !important;
+  }
+}
