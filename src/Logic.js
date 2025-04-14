@@ -94,6 +94,13 @@ export const QUESTIONS = [
                     backgroundImage: "url('/images/bg-wiggle.jpg')",
                 }
 
+            },
+            {
+                label: "Garbage Truck Song",
+                style: {
+                    fontSize: "0.5em"
+                }
+
             }
         ]
     },
