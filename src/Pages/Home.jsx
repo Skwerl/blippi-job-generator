@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Box from '@mui/material/Box';
 import * as Motion from "motion/react-client";
 import Main from '../Layouts/Main';
 
@@ -17,9 +18,11 @@ export default function Home() {
         <div className="banner"><img src="/images/text-job-generator.png" /></div>
 
         <div className="button">
-          <Motion.div whileHover={{ scale: 1.2 }}>
-            <Link to="/quiz"><img src="/images/button-go.png" /></Link>
-          </Motion.div>
+          <Box>
+            <Motion.div whileHover={{ scale: 1.2 }}>
+              <Link to="/quiz"><img src="/images/button-go.png" /></Link>
+            </Motion.div>
+          </Box>
         </div>
 
         <div className="character-blippi-1">
