@@ -27,7 +27,7 @@
     }
 
     &.prompt {
-      top: 12%;
+      top: 10%;
       height: 30%;
       padding: 0 40px;
     }
@@ -37,10 +37,12 @@
       }
       .job-title {
         font-size: 1.4em;
+        line-height: 0.8em;
       }
       .job-description {
         font-size: 0.7em;
         line-height: 1em;
+        padding: 0 70px;
       }
     }
 
@@ -69,5 +71,26 @@
         }
       }
     }
+  }
+}
+
+div.results-character {
+  position: absolute;
+  height: 85%;
+  left: 0;
+  right: 0;
+  bottom: -85px;
+  z-index: 30;
+  margin-inline: auto;
+  width: fit-content;
+  min-width: 40%;
+  text-align: center;
+  &.left {
+    left: -12%;
+    right: initial;
+  }
+  &.right {
+    left: initial;
+    right: -12%;
   }
 }
