@@ -45,13 +45,16 @@
       .job-description {
         font-size: 0.7em;
         line-height: 1em;
-        padding: 0 70px;
+        max-width: 760px;
         margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 70px;
       }
     }
 
     &.choices {
-      top: 48%;
+      top: 42%;
       height: 25%;
       .choice-wrapper {
         height: 100%;
