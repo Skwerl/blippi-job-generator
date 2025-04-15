@@ -30,7 +30,7 @@ export default function ResultCharacters(props) {
       <ResultsCharacter side="left" size={100}>
         <img src="/images/result-artist-blippi.png" />
       </ResultsCharacter>
-      <ResultsCharacter side="right" size={94}>
+      <ResultsCharacter side="right" size={98}>
         <img src="/images/result-artist-meekah.png" />
       </ResultsCharacter>
     </React.Fragment>}
