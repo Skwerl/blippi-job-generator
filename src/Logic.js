@@ -5,12 +5,14 @@ export const QUESTIONS = [
         choices: [
             {
                 label: "Inside",
+                class: "push-bottom",
                 style: {
                     backgroundImage: "url('/images/bg-inside.jpg')",
                 }
             },
             {
                 label: "Outside",
+                class: "push-bottom",
                 style: {
                     backgroundImage: "url('/images/bg-outside.jpg')",
                 }
@@ -66,6 +68,7 @@ export const QUESTIONS = [
         choices: [
             {
                 label: "Excavator",
+                class: "push-bottom",
                 style: {
                     fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-construction.jpg')",
@@ -73,6 +76,7 @@ export const QUESTIONS = [
             },
             {
                 label: "Monster Truck Song",
+                class: "push-bottom",
                 style: {
                     fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-monstertruck.jpg')",
@@ -81,6 +85,7 @@ export const QUESTIONS = [
             },
             {
                 label: "Fire Truck Song",
+                class: "push-bottom",
                 style: {
                     fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-firetruck.jpg')",
@@ -89,6 +94,7 @@ export const QUESTIONS = [
             },
             {
                 label: "Blippi Wiggle",
+                class: "push-bottom",
                 style: {
                     fontSize: "0.5em",
                     backgroundImage: "url('/images/bg-wiggle.jpg')",
@@ -97,6 +103,7 @@ export const QUESTIONS = [
             },
             {
                 label: "Garbage Truck Song",
+                class: "push-bottom",
                 style: {
                     fontSize: "0.5em"
                 }

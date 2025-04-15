@@ -2,9 +2,9 @@ import React from 'react';
 import * as Motion from "motion/react-client";
 
 const ResultsCharacter = (props) => {
-  const { side, size, style, children } = props;
+  const { side, classes, size, style, children } = props;
   const rotation = (side === "right") ? [0, -2, 0] : [0, 2, 0];
-  return <div className={`results-character ${side}`} style={{ ...style, height: `${size}%` }}>
+  return <div className={`results-character ${side} ${classes}`} style={{ ...style, height: `${size}%` }}>
     <Motion.div
       animate={{
         rotate: rotation
@@ -27,7 +27,7 @@ export default function ResultCharacters(props) {
   return <React.Fragment>
 
     {(result === "Art Teacher") && <React.Fragment>
-      <ResultsCharacter side="left" size={100}>
+      <ResultsCharacter side="left" size={100} classes="mobile-hide">
         <img src="/images/result-artist-blippi.png" />
       </ResultsCharacter>
       <ResultsCharacter side="right" size={98}>
@@ -36,7 +36,7 @@ export default function ResultCharacters(props) {
     </React.Fragment>}
 
     {(result === "Astronaut") && <React.Fragment>
-      <ResultsCharacter side="left" size={94}>
+      <ResultsCharacter side="left" size={94} classes="mobile-hide">
         <img src="/images/result-astronaut-meekah.png" />
       </ResultsCharacter>
       <ResultsCharacter side="right" size={100}>
@@ -45,7 +45,7 @@ export default function ResultCharacters(props) {
     </React.Fragment>}
 
     {(result === "Construction Worker") && <React.Fragment>
-      <ResultsCharacter side="left" size={94} style={{ left: "-6%" }}>
+      <ResultsCharacter side="left" size={94} style={{ left: "-6%" }} classes="mobile-hide">
         <img src="/images/result-construction-meekah.png" />
       </ResultsCharacter>
       <ResultsCharacter side="right" size={100}>
@@ -54,7 +54,7 @@ export default function ResultCharacters(props) {
     </React.Fragment>}
 
     {(result === "Dancer") && <React.Fragment>
-      <ResultsCharacter side="left" size={112} style={{ left: "-16%" }}>
+      <ResultsCharacter side="left" size={112} style={{ left: "-16%" }} classes="mobile-hide">
         <img src="/images/result-dancer-meekah.png" />
       </ResultsCharacter>
       <ResultsCharacter side="right" size={100}>
@@ -72,7 +72,7 @@ export default function ResultCharacters(props) {
     </React.Fragment>}
 
     {(result === "Farmer") && <React.Fragment>
-      <ResultsCharacter side="left" size={94} style={{ left: "-9%" }}>
+      <ResultsCharacter side="left" size={94} style={{ left: "-9%" }} classes="mobile-hide">
         <img src="/images/result-farmer-meekah.png" />
       </ResultsCharacter>
       <ResultsCharacter side="right" size={100} style={{ right: "-9%" }}>
@@ -102,13 +102,13 @@ export default function ResultCharacters(props) {
       <ResultsCharacter side="left" size={100}>
         <img src="/images/result-monstertruck-blippi.png" />
       </ResultsCharacter>
-      <ResultsCharacter side="right" size={94}>
+      <ResultsCharacter side="right" size={94} classes="mobile-hide">
         <img src="/images/result-monstertruck-meekah.png" />
       </ResultsCharacter>
     </React.Fragment>}
 
     {(result === "Pizza Chef") && <React.Fragment>
-      <ResultsCharacter side="left" size={94}>
+      <ResultsCharacter side="left" size={94} classes="mobile-hide">
         <img src="/images/result-pizza-meekah.png" />
       </ResultsCharacter>
       <ResultsCharacter side="right" size={100} style={{ right: "-7%" }}>

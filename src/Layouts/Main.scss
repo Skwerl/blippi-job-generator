@@ -28,4 +28,11 @@
     height: 100vh !important;
     max-height: 100vh !important;
   }
+
+  .master_wrapper {
+    & > div {
+      height: 100% !important;
+      overflow: hidden;
+    }
+  }
 }

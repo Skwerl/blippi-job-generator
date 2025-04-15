@@ -85,6 +85,9 @@
         &.no-shadow {
           text-shadow: none;
         }
+        &.push-bottom {
+          padding-top: 120px;
+        }
       }
     }
   }
@@ -114,20 +117,42 @@ div.results-character {
 @media only screen and (max-width: 666px) {
   .quiz-container {
     & > div {
-      &.prompt {
-        height: auto;
+      & > * {
+        font-size: 3em;
+        // line-height: 0.9em;
       }
-
+      &.prompt {
+        top: 5%;
+        height: auto;
+        padding: 0 20px;
+      }
+      &.result {
+        top: 30%;
+        .job-description {
+          padding: 0;
+        }
+      }
       &.choices {
-        top: 35%;
+        top: 30%;
         width: 100%;
         height: auto;
         margin: 0;
+        padding: 0 20px;
         .choice {
-          width: 150px;
-          height: 150px;
+          font-size: 0.4em !important;
+          width: 100px;
+          height: 100px;
+          padding: 5px;
+          border-radius: 18px;
+          &.push-bottom {
+            padding-top: 55px;
+          }
         }
       }
     }
+  }
+
+  div.results-character {
+    bottom: 0;
   }
 }
