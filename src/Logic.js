@@ -5,14 +5,14 @@ export const QUESTIONS = [
         choices: [
             {
                 label: "Inside",
-                class: "push-bottom bigger",
+                class: "bigger",
                 style: {
                     backgroundImage: "url('/images/bg-inside.jpg')",
                 }
             },
             {
                 label: "Outside",
-                class: "push-bottom bigger",
+                class: "bigger",
                 style: {
                     backgroundImage: "url('/images/bg-outside.jpg')",
                 }

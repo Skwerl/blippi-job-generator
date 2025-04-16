@@ -48,7 +48,7 @@ export default function ResultCharacters(props) {
       <ResultsCharacter side="left" size={94} style={{ left: "-6%" }} classes="mobile-hide">
         <img src="/images/result-construction-meekah.png" />
       </ResultsCharacter>
-      <ResultsCharacter side="right" size={100}>
+      <ResultsCharacter side="right" size={100} classes="mobile-center">
         <img src="/images/result-construction-blippi.png" />
       </ResultsCharacter>
     </React.Fragment>}
@@ -75,7 +75,7 @@ export default function ResultCharacters(props) {
       <ResultsCharacter side="left" size={94} style={{ left: "-9%" }} classes="mobile-hide">
         <img src="/images/result-farmer-meekah.png" />
       </ResultsCharacter>
-      <ResultsCharacter side="right" size={100} style={{ right: "-9%" }}>
+      <ResultsCharacter side="right" size={100} style={{ right: "-9%" }} classes="mobile-center">
         <img src="/images/result-farmer-blippi.png" />
       </ResultsCharacter>
     </React.Fragment>}
@@ -99,7 +99,7 @@ export default function ResultCharacters(props) {
     </React.Fragment>}
 
     {(result === "Monster Truck Driver") && <React.Fragment>
-      <ResultsCharacter side="left" size={100}>
+      <ResultsCharacter side="left" size={100} classes="mobile-center">
         <img src="/images/result-monstertruck-blippi.png" />
       </ResultsCharacter>
       <ResultsCharacter side="right" size={94} classes="mobile-hide">
@@ -111,7 +111,7 @@ export default function ResultCharacters(props) {
       <ResultsCharacter side="left" size={94} classes="mobile-hide">
         <img src="/images/result-pizza-meekah.png" />
       </ResultsCharacter>
-      <ResultsCharacter side="right" size={100} style={{ right: "-7%" }}>
+      <ResultsCharacter side="right" size={100} style={{ right: "-7%" }} classes="mobile-center">
         <img src="/images/result-pizza-blippi.png" />
       </ResultsCharacter>
     </React.Fragment>}

@@ -163,4 +163,10 @@ div.results-character {
   div.results-character {
     bottom: 0;
   }
+  .results-character.mobile-center.left {
+    left: 5% !important;
+  }
+  .results-character.mobile-center.right {
+    right: 4% !important;
+  }
 }
