@@ -5,14 +5,14 @@ export const QUESTIONS = [
         choices: [
             {
                 label: "Inside",
-                class: "push-bottom",
+                class: "push-bottom bigger",
                 style: {
                     backgroundImage: "url('/images/bg-inside.jpg')",
                 }
             },
             {
                 label: "Outside",
-                class: "push-bottom",
+                class: "push-bottom bigger",
                 style: {
                     backgroundImage: "url('/images/bg-outside.jpg')",
                 }
@@ -26,6 +26,7 @@ export const QUESTIONS = [
         choices: [
             {
                 label: "Red",
+                class: "big-text",
                 style: {
                     color: "#fff",
                     backgroundColor: "red"
@@ -33,7 +34,7 @@ export const QUESTIONS = [
             },
             {
                 label: "White",
-                class: "no-shadow",
+                class: "big-text no-shadow",
                 style: {
                     color: "#000",
                     backgroundColor: "#fff"
@@ -41,6 +42,7 @@ export const QUESTIONS = [
             },
             {
                 label: "Blue",
+                class: "big-text",
                 style: {
                     color: "#fff",
                     backgroundColor: "blue"
@@ -48,6 +50,7 @@ export const QUESTIONS = [
             },
             {
                 label: "Orange",
+                class: "big-text",
                 style: {
                     color: "#fff",
                     backgroundColor: "orange"
@@ -55,6 +58,7 @@ export const QUESTIONS = [
             },
             {
                 label: "Purple",
+                class: "big-text",
                 style: {
                     color: "#fff",
                     backgroundColor: "purple"

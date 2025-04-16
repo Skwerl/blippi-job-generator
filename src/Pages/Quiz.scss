@@ -147,6 +147,14 @@ div.results-character {
           &.push-bottom {
             padding-top: 55px;
           }
+          &.big-text {
+            font-size: 0.6em !important;
+          }
+          &.bigger {
+            font-size: 0.6em !important;
+            width: 135px;
+            height: 135px;
+          }
         }
       }
     }
