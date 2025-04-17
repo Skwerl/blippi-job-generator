@@ -25,9 +25,14 @@
   align-items: center;
   overflow: hidden;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   .iframe-wrapper {
     margin-top: -40px;
     position: relative;
+    iframe {
+      width: 400px;
+      height: 500px;
+    }
     div.button {
       position: absolute;
       bottom: -69px;
@@ -36,6 +41,18 @@
       img {
         width: auto;
         height: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .modal-embed {
+    .iframe-wrapper {
+      margin-top: -120px;
+      iframe {
+        width: 360px;
+        height: 500px;
       }
     }
   }

@@ -37,10 +37,8 @@ export default function Player(props) {
       <div className="iframe-wrapper">
         <iframe
           src="https://blippi.lnk.to/WeExploreJG/widget"
-          width="400"
-          height="500"
           frameBorder="0"
-          allowTransparency="true"
+          allowtransparency="true"
         ></iframe>
         {replayEnable && <div className="button">
           <img src="/images/button-replay.png" onClick={handleReplay} />
