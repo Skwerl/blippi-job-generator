@@ -21,10 +21,12 @@ export default function Player(props) {
   });
 
   const playSnippet = () => {
-    AudioPlayer.play();
-    setTimeout(() => {
-      setEmbedDisplay(true);
-    }, 10000);
+    if (!AudioPlayer.playing()) {
+      AudioPlayer.play();
+      setTimeout(() => {
+        setEmbedDisplay(true);
+      }, 10000);
+    }
   }
 
   const handleReplay = () => {
