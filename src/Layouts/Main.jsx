@@ -9,7 +9,7 @@ export default function Main(props) {
     const { children, pagetitle = "" } = props;
 
     useEffect(() => {
-        document.title = (!!pagetitle ? pagetitle : "Blippi Prototype");
+        document.title = (!!pagetitle ? pagetitle : "Blippi Job Generator");
     }, [pagetitle]);
 
     return <Box className="master_wrapper">
