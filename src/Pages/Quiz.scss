@@ -51,6 +51,17 @@
         margin-right: auto;
         padding: 0 70px;
       }
+      .button {
+        height: 160px;
+        div {
+          height: 100%;
+        }
+        img {
+          width: auto;
+          height: 100%;
+          cursor: pointer;
+        }
+      }
     }
 
     &.choices {
@@ -128,7 +139,14 @@ div.results-character {
       }
       &.result {
         top: 30%;
+        .header {
+          font-size: 0.6em;
+        }
+        .job-title {
+          font-size: 0.9em;
+        }
         .job-description {
+          font-size: 0.5em;
           padding: 0;
         }
       }

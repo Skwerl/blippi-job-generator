@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import * as Motion from "motion/react-client";
 import Main from '../Layouts/Main';
+import Player from '../Components/Player';
 import ResultCharacters from '../Components/ResultCharacters';
 import { QUESTIONS, RESULTS, getResult } from '../Logic';
 
@@ -35,6 +36,7 @@ export default function Quiz() {
                 <span className="header">Your future job:</span>
                 <span className="job-title">{jobResult}</span>
                 <span className="job-description">{RESULTS[jobResult].description}</span>
+                <Player snippet={RESULTS[jobResult].audio} />
               </Stack>
             </div>
             <ResultCharacters result={jobResult} />
@@ -52,7 +54,6 @@ export default function Quiz() {
         {!!!jobResult && <React.Fragment>
           <div className="choices">
             <Stack spacing={2} direction="row" justifyContent="center" flexWrap="wrap">
-
               {QUESTIONS[currentQuestion].choices.map((choice, index) => <React.Fragment key={index}>
                 <Box className="choice-wrapper">
                   <Motion.div whileHover={{ scale: 1.1 }}>

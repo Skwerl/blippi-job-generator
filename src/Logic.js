@@ -119,34 +119,44 @@ export const QUESTIONS = [
 
 export const RESULTS = {
     "Art Teacher": {
-        description: "Art Teachers show students how to shape clay, mix paints, and add details to make art."
+        description: "Art Teachers show students how to shape clay, mix paints, and add details to make art.",
+        audio: "/audio/Art Teacher.wav"
     },
     "Astronaut": {
-        description: "Astronauts fly rocket ships and use space suits to explore the moon."
+        description: "Astronauts fly rocket ships and use space suits to explore the moon.",
+        audio: "/audio/Astronaut.wav"
     },
     "Construction Worker": {
-        description: "Construction workers use trucks and tools to build something awesome!"
+        description: "Construction workers use trucks and tools to build something awesome!",
+        audio: "/audio/Excavator.wav"
     },
     "Dancer": {
-        description: "Dancers move their bodies to the rhythm of music and combine steps into a routine."
+        description: "Dancers move their bodies to the rhythm of music and combine steps into a routine.",
+        audio: "/audio/Dancer.wav"
     },
     "Doctor": {
-        description: "Doctors use tests and medical instruments to make sure their patients are healthy."
+        description: "Doctors use tests and medical instruments to make sure their patients are healthy.",
+        audio: "/audio/Doctor.wav"
     },
     "Farmer": {
-        description: "Farmers feed animals, give them exercise and a place to live. They are very caring!"
+        description: "Farmers feed animals, give them exercise and a place to live. They are very caring!",
+        audio: "/audio/Farmer.wav"
     },
     "Firefighter": {
-        description: "Firefighters are brave and use a hose and ladder to rescue people."
+        description: "Firefighters are brave and use a hose and ladder to rescue people.",
+        audio: "/audio/Firefighter.wav"
     },
     "Grocery Worker": {
-        description: "Grocery Workers help customers find groceries and check out grocery orders."
+        description: "Grocery Workers help customers find groceries and check out grocery orders.",
+        audio: "/audio/Grocer.wav"
     },
     "Monster Truck Driver": {
-        description: "Monster Truck Drivers have special vehicles to put on a great show!"
+        description: "Monster Truck Drivers have special vehicles to put on a great show!",
+        audio: "/audio/Monster Trucks.wav"
     },
     "Pizza Chef": {
-        description: "Pizza chefs gather ingredients and follow a recipe to make delicious pizza."
+        description: "Pizza chefs gather ingredients and follow a recipe to make delicious pizza.",
+        audio: "/audio/Pizza.wav"
     }
 };
 
