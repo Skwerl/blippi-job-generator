@@ -74,22 +74,3 @@ export default function Quiz() {
   </Main>
 
 }
-
-const ResultsCharacter = (props) => {
-  const { side, size, children } = props;
-  const rotation = (side === "right") ? [0, -2, 0] : [0, 2, 0];
-  return <div className={`results-character ${side}`} style={{ height: `${size}%` }}>
-    <Motion.div
-      animate={{
-        rotate: rotation
-      }}
-      transition={{
-        duration: 2,
-        ease: "easeInOut",
-        repeat: Infinity,
-        repeatDelay: 1
-      }}>
-      {children}
-    </Motion.div>
-  </div>
-}
