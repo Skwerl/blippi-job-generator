@@ -24,6 +24,13 @@ export default function Quiz() {
     } else setJobResult(getResult(updatedAnswers));
   }
 
+  const goBack = () => {
+    let updatedAnswers = [...answersArray];
+    updatedAnswers.pop();
+    setAnswersArray(updatedAnswers);
+    setCurrentQuestion(currentQuestion - 1);
+  }
+
   return <Main>
     <React.Fragment>
 
@@ -63,8 +70,10 @@ export default function Quiz() {
                   </Motion.div>
                 </Box>
               </React.Fragment>)}
-
             </Stack>
+            {(currentQuestion < QUESTIONS.length - 1) && <Box className="back-button">
+              <img src="/images/button-back.png" onClick={goBack} />
+            </Box>}
           </div>
         </React.Fragment>}
 
