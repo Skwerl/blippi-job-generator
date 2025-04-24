@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import * as Motion from "motion/react-client";
@@ -10,6 +11,8 @@ import { QUESTIONS, RESULTS, getResult } from '../Logic';
 import './Quiz.scss';
 
 export default function Quiz() {
+
+  const navigate = useNavigate();
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answersArray, setAnswersArray] = useState([]);
@@ -25,10 +28,14 @@ export default function Quiz() {
   }
 
   const goBack = () => {
-    let updatedAnswers = [...answersArray];
-    updatedAnswers.pop();
-    setAnswersArray(updatedAnswers);
-    setCurrentQuestion(currentQuestion - 1);
+    if (currentQuestion === 0) {
+      navigate('/');
+    } else {
+      let updatedAnswers = [...answersArray];
+      updatedAnswers.pop();
+      setAnswersArray(updatedAnswers);
+      setCurrentQuestion(currentQuestion - 1);
+    }
   }
 
   return <Main>

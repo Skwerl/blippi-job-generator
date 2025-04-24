@@ -42,6 +42,15 @@
 }
 
 @media only screen and (max-width: 666px) {
+  .quiz-container .result {
+    .ctas-wrapper {
+      .button {
+        height: 66px;
+        margin-bottom: -2px;
+      }
+    }
+  }
+
   .modal-embed {
     .iframe-wrapper {
       margin-top: -120px;
