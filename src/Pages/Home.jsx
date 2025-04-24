@@ -14,7 +14,7 @@ export default function Home() {
       <div className="home-container">
 
         <div className="lockup"><img src="/images/job-show-lockup.png" /></div>
-        <div className="text"><img src="/images/text-perfect-job.png" /></div>
+        <div className="text"><span>What's your perfect job?<br />Find out with Blippi's</span></div>
         <div className="banner"><img src="/images/text-job-generator.png" /></div>
 
         <div className="button">

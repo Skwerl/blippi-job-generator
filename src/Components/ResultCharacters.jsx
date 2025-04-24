@@ -99,10 +99,10 @@ export default function ResultCharacters(props) {
     </React.Fragment>}
 
     {(result === "Monster Truck Driver") && <React.Fragment>
-      <ResultsCharacter side="left" size={100} classes="mobile-center">
+      <ResultsCharacter side="left" size={100} classes="mobile-hide">
         <img src="/images/result-monstertruck-blippi.png" />
       </ResultsCharacter>
-      <ResultsCharacter side="right" size={94} classes="mobile-hide">
+      <ResultsCharacter side="right" size={94} classes="mobile-center">
         <img src="/images/result-monstertruck-meekah.png" />
       </ResultsCharacter>
     </React.Fragment>}

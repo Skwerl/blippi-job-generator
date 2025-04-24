@@ -26,8 +26,15 @@
       height: 25%;
     }
     &.text {
-      top: 28%;
+      top: 29%;
       height: 30%;
+      font-family: "Dimbo";
+      font-weight: normal;
+      font-style: normal;
+      font-size: 4em;
+      line-height: 1em;
+      color: #fff;
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 2);
     }
     &.banner {
       top: 50%;
