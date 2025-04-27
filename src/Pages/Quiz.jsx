@@ -78,9 +78,9 @@ export default function Quiz() {
                 </Box>
               </React.Fragment>)}
             </Stack>
-            {(currentQuestion < QUESTIONS.length - 1) && <Box className="back-button">
+            <Box className="back-button">
               <img src="/images/button-back.png" onClick={goBack} />
-            </Box>}
+            </Box>
           </div>
         </React.Fragment>}
 
