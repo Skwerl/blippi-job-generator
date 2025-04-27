@@ -113,12 +113,12 @@
 }
 
 div.results-character {
-  position: absolute;
+  position: fixed;
+  z-index: 30;
   height: 85%;
   left: 0;
   right: 0;
   bottom: -85px;
-  z-index: 30;
   margin-inline: auto;
   width: fit-content;
   min-width: 40%;
@@ -189,9 +189,9 @@ div.results-character {
     }
   }
 
-  div.results-character {
-    bottom: 0;
-  }
+  // div.results-character {
+  //   bottom: 0;
+  // }
   .results-character.mobile-center.left {
     left: 5% !important;
   }

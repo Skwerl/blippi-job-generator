@@ -18,6 +18,16 @@
   align-items: center;
 }
 
+.app_wrapper {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.MuiAspectRatio-root,
+.MuiAspectRatio-content {
+  background: none !important;
+}
+
 @media only screen and (max-width: 666px) {
   .mobile-hide {
     display: none;
