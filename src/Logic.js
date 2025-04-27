@@ -75,7 +75,7 @@ export const QUESTIONS = [
                 class: "push-bottom",
                 style: {
                     fontSize: "0.5em",
-                    backgroundImage: "url('/images/bg-construction.jpg')",
+                    backgroundImage: "url('/images/bg-excavator.jpg')",
                 }
             },
             {
@@ -101,7 +101,7 @@ export const QUESTIONS = [
                 class: "push-bottom",
                 style: {
                     fontSize: "0.5em",
-                    backgroundImage: "url('/images/bg-wiggle.jpg')",
+                    backgroundImage: "url('/images/bg-dance.jpg')",
                 }
 
             },
@@ -109,7 +109,8 @@ export const QUESTIONS = [
                 label: "Garbage Truck Song",
                 class: "push-bottom",
                 style: {
-                    fontSize: "0.5em"
+                    fontSize: "0.5em",
+                    backgroundImage: "url('/images/bg-garbage.jpg')",
                 }
 
             }
