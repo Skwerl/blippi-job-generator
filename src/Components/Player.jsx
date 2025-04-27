@@ -37,7 +37,7 @@ export default function Player(props) {
   }
 
   const handleLinkfire = () => {
-    window.location.href = "https://blippi.lnk.to/WeExploreJG";
+    window.location.href = "https://Moonbug.lnk.to/FqzpsmJG";
   }
 
   const handleExplore = () => {
