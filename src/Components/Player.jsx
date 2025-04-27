@@ -37,11 +37,11 @@ export default function Player(props) {
   }
 
   const handleLinkfire = () => {
-    window.location.href = "https://Moonbug.lnk.to/FqzpsmJG";
+    window.open("https://Moonbug.lnk.to/FqzpsmJG", "_blank");
   }
 
   const handleExplore = () => {
-    window.location.href = "https://blippi.com";
+    window.open("https://blippi.com", "_blank");
   }
 
   return <React.Fragment>
