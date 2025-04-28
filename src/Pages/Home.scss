@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   & > div {
     position: absolute;
     left: 0;
@@ -59,28 +60,28 @@
       height: 85%;
       left: -12%;
       right: initial;
-      bottom: 0;
+      bottom: -8px;
       z-index: 30;
     }
     &.character-meekah-1 {
       height: 84%;
       left: 3.5%;
       right: initial;
-      bottom: 0;
+      bottom: -8px;
       z-index: 20;
     }
     &.character-blippi-2 {
       height: 87%;
       left: initial;
       right: 5%;
-      bottom: 0;
+      bottom: -8px;
       z-index: 30;
     }
     &.character-meekah-2 {
       height: 81%;
       left: initial;
       right: -14%;
-      bottom: 0;
+      bottom: -8px;
       z-index: 20;
     }
   }
