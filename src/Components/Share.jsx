@@ -13,7 +13,7 @@ export default function Share(props) {
   const [dialogOpen, setDialogOpen] = useState(false);
   const toggleOpen = () => setDialogOpen(!dialogOpen);
 
-  const shareUrl = "https://blippi.com";
+  const shareUrl = "https://d3ckb3j75uaybk.cloudfront.net";
 
   return <React.Fragment>
 
