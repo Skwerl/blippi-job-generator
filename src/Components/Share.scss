@@ -1,0 +1,56 @@
+.share_modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  & > div {
+    position: relative;
+    color: #000;
+    background-color: #fff;
+    padding: 60px 40px 25px;
+    border-radius: 10px;
+
+    .icons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .MuiIconButton-root {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  }
+}
+
+.share_button {
+  cursor: pointer;
+  position: fixed;
+  z-index: 99;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .share_button {
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+  }
+}
