@@ -15,19 +15,17 @@
     background-color: #fff;
     padding: 60px 40px 25px;
     border-radius: 10px;
-
+    & > .MuiIconButton-root {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
     .icons {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       gap: 8px;
-    }
-
-    .MuiIconButton-root {
-      position: absolute;
-      right: 10px;
-      top: 10px;
     }
   }
 }

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import IconButton from '@mui/material/IconButton';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import CloseIcon from '@mui/icons-material/Close';
 import * as Motion from "motion/react-client";
 import { FacebookShareButton, FacebookIcon } from "react-share";
-import { TwitterShareButton, XIcon } from "react-share";
 import { WhatsappShareButton, WhatsappIcon } from "react-share";
 import { EmailShareButton, EmailIcon } from "react-share";
 import './Share.scss';
@@ -14,6 +14,14 @@ export default function Share(props) {
   const toggleOpen = () => setDialogOpen(!dialogOpen);
 
   const shareUrl = "https://d3ckb3j75uaybk.cloudfront.net";
+
+  const handleNativeShare = () => {
+    navigator.share({
+      title: "Blippi Job Generator",
+      text: "What's your perfect job? Find out with Blippi's Job Generator!",
+      url: shareUrl,
+    });
+  };
 
   return <React.Fragment>
 
@@ -30,10 +38,6 @@ export default function Share(props) {
             <FacebookIcon size={32} round={true} />
           </FacebookShareButton>
 
-          <TwitterShareButton url={shareUrl}>
-            <XIcon size={32} round={true} />
-          </TwitterShareButton>
-
           <WhatsappShareButton url={shareUrl}>
             <WhatsappIcon size={32} round={true} />
           </WhatsappShareButton>
@@ -41,6 +45,12 @@ export default function Share(props) {
           <EmailShareButton url={shareUrl}>
             <EmailIcon size={32} round={true} />
           </EmailShareButton>
+
+          {(navigator && navigator.canShare) &&
+            <IconButton style={{ width: "32px", height: "32px" }} onClick={handleNativeShare}>
+              <MoreHorizIcon>More</MoreHorizIcon>
+            </IconButton>
+          }
 
         </div>
 
