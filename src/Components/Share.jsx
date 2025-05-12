@@ -32,6 +32,8 @@ export default function Share(props) {
           <CloseIcon />
         </IconButton>
 
+        <span>Share</span>
+
         <div className="icons">
 
           <FacebookShareButton url={shareUrl}>

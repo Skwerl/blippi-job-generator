@@ -15,6 +15,16 @@
     background-color: #fff;
     padding: 60px 40px 25px;
     border-radius: 10px;
+    & > span {
+      position: absolute;
+      left: 16px;
+      top: 6px;
+      color: #ff7f32;
+      font-family: "Dimbo";
+      font-weight: normal;
+      font-style: normal;
+      font-size: 28px;
+    }
     & > .MuiIconButton-root {
       position: absolute;
       right: 10px;
