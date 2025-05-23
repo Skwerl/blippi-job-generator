@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Box from '@mui/material/Box';
 import AspectRatio from '@mui/joy/AspectRatio';
 import Share from '../Components/Share';
-
+import Footer from '../Components/Footer';
 
 import './Main.scss';
 
@@ -25,9 +25,11 @@ export default function Main(props) {
                     {children}
                 </React.Fragment>
             </Box>
-            <Share />
         </AspectRatio>
 
-    </Box >
+        <Share />
+        <Footer />
+
+    </Box>
 
 }
