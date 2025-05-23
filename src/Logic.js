@@ -210,3 +210,5 @@ export const getResult = (answers) => {
     }
     return result;
 }
+
+export const LAUNCH_DATE = "May 23, 2025";

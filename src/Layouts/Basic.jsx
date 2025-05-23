@@ -13,6 +13,7 @@ export default function Basic(props) {
     }, [pagetitle]);
 
     return <React.Fragment>
+
         <div className="basic_content">
             {children}
         </div>
