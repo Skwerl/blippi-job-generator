@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Basic from '../Layouts/Basic';
+import { LAUNCH_DATE } from "../Logic";
 
 export default function Privacy() {
 
@@ -8,15 +10,47 @@ export default function Privacy() {
 
       <h1>Privacy Policy</h1>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis sodales tortor, eu fringilla elit molestie eu. Vivamus eget massa et orci imperdiet porttitor a non erat. Cras sed est vel eros tincidunt vestibulum porttitor eget felis. Proin aliquet vitae erat vehicula congue. Maecenas maximus, mi quis tincidunt sollicitudin, sapien quam ultricies ligula, nec facilisis arcu tortor mollis nibh. Quisque laoreet enim nec felis interdum consectetur. Donec blandit, justo non placerat dictum, dolor turpis ullamcorper leo, facilisis maximus justo odio nec mi. Donec sit amet ante tristique, vehicula lectus ac, venenatis odio. Morbi convallis pretium pretium. Curabitur ut commodo ligula. Morbi semper nibh ante, porta aliquet lectus iaculis nec.</p>
+      <p>Last updated {LAUNCH_DATE}.</p>
 
-      <p>Cras nisi metus, gravida rhoncus purus ut, posuere fringilla eros. Phasellus est urna, pulvinar in urna vitae, maximus semper turpis. Ut ipsum urna, sodales at tristique eu, volutpat et nibh. Fusce in suscipit sem. Suspendisse gravida tincidunt turpis non aliquam. Aenean leo metus, consectetur facilisis commodo eget, consectetur et velit. Mauris pharetra augue massa, eget euismod enim lacinia in. Aliquam vulputate dolor a justo commodo pharetra. Nulla id posuere ex. Donec semper molestie augue at efficitur. Aliquam id ipsum turpis. Suspendisse potenti. Sed vitae suscipit neque. Nulla ac volutpat ipsum. Proin sit amet pretium metus.</p>
+      <p><strong>Introduction</strong></p>
 
-      <p>Maecenas viverra dui sed ligula commodo dapibus. In lacinia id risus ut tincidunt. Sed euismod leo id lectus blandit, eget rhoncus lacus vehicula. Nullam elit nibh, tempus ut sem non, condimentum varius dui. Nulla eu metus ipsum. Cras ultricies ex eu vehicula scelerisque. Donec ac nisl nibh. Proin id ante in mauris blandit consequat sed eu dolor. Mauris ultricies tortor nec sodales tempor.</p>
+      <p>This Privacy Notice is issued on behalf of Moonbug Entertainment Limited, company number 11197631, data protection registration number ZA457059, with its registered office at 3rd Floor, Labs Upper Lock, 3-6 Water Lane, London NW1 8JZ, United Kingdom (<strong>“Moonbug”</strong>, <strong>“us”</strong>, <strong>“we”</strong> or <strong>“our”</strong>). We are responsible for the micro-site site located at <a href="https://www.blippijobgenerator.com">www.BlippiJobGenerator.com</a> (the <strong>“Microsite”</strong>) and this Privacy Notice applies to your use of the Microsite.</p>
 
-      <p>Aliquam gravida, lacus imperdiet finibus ultricies, magna ante vulputate dui, nec lobortis odio libero et lectus. Aliquam at nisi nisi. Mauris tincidunt at odio at interdum. Suspendisse molestie tincidunt mi eget molestie. Vestibulum vehicula ut diam et cursus. Vestibulum non maximus velit. Quisque congue elementum lorem rhoncus facilisis. Curabitur et dolor nec est hendrerit scelerisque. Nullam vel ex nisl. Mauris accumsan, enim et eleifend efficitur, mauris sem dapibus massa, eu imperdiet velit neque sit amet arcu. Nunc a finibus massa. Aliquam feugiat euismod felis, eget fringilla ex semper pulvinar. Praesent ac augue leo. Integer rutrum mauris ut sapien ultrices, eu lacinia magna imperdiet.</p>
+      <p>We refer to everyone who accesses or uses the Microsite as a <strong>“User”</strong>. For the purpose of these Terms of Use, <strong>“you”</strong> and <strong>“your”</strong> means you as the User of the Microsite.</p>
 
-      <p>Donec ipsum magna, auctor a nibh vitae, varius semper mi. Vestibulum ac ante non mauris lacinia tempus sed vitae arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce hendrerit sit amet urna vel consectetur. Nulla nisi nulla, congue ullamcorper turpis id, laoreet vehicula felis. Integer sed vulputate felis. Vivamus a magna ut tortor facilisis egestas. Mauris venenatis tempus nibh, vitae scelerisque ex efficitur vitae. Quisque ut cursus nunc, sed vehicula sem. Quisque vitae ex eros. Fusce non turpis at magna gravida faucibus ut at nisi. Phasellus sapien ante, placerat a dolor eget, molestie feugiat risus. Sed vitae velit in est faucibus egestas eu sit amet augue. Mauris mattis nisi ut consequat lobortis.</p>
+      <p>For further information about how we process your personal data when accessing the Microsite please visit our <Link to="/terms">Terms of Use</Link> and <Link to="/cookies">Cookie Policy</Link>.</p>
+
+      <p><strong>What is personal data?</strong></p>
+
+      <p>Personal data is any information about you, for example, your name, our email address, or even your birthday. This also includes data like the internet protocol (IP) address of the device which you use when accessing the Microsite.</p>
+
+      <p><strong>What personal data do we collect from you?</strong></p>
+
+      <p>We do not knowingly collect personal information from users of this Microsite that are aged under 13, except for the browsing information we need to operate the Microsite. We collect this browsing information by using cookies and other similar technologies and the full details as to how we process and use cookies can be found in our <Link to="/cookies">Cookie Policy</Link>.</p>
+
+      <p><strong>Why are we using your personal data?</strong></p>
+
+      <p>We need to collect some of your browsing data so that you can use our Microsite and interact with the Blippi job quiz.</p>
+
+      <p>It is in our legitimate interest to use personal data in this way, to ensure that we can provide access to our Microsite in an effective way, make the content available to you and to make improvements to our Microsite.</p>
+
+      <p>We do not collect any other personal data from this Microsite, nor do we use your browsing data for any other purpose. Any browsing data that we collect while you visit our Microsite is instantly deleted once you leave our Microsite and is never stored anywhere. We however keep anonymised and aggregated data for essential and analytics purposes, for example to count the number of visitors and to see how visitors move around our Microsite when they are using it.</p>
+
+      <p><strong>Links to third-party sites</strong></p>
+
+      <p>This Privacy Notice only applies to personal data processed by us through your use of the Microsite. This Microsite contains links to third-party sites, such as video or music streaming platforms, We have no control over their sites and services and this Privacy Notice does not apply to your interaction with these third parties.</p>
+
+      <p>If you access a third-party site using the links provided on our Microsite, the operators of these sites may collect your personal data from their sites, which could be used by them in accordance with their own privacy policies. Please check these policies before you submit any personal data to those sites.</p>
+
+      <p><strong>What can you ask us about your personal data?</strong></p>
+
+      <p>You can always ask us for a copy of the information we have about you, to change the information we have about you, or to delete the information we have about you.</p>
+
+      <p><strong>Contact us</strong></p>
+
+      <p>If you have any queries regarding this Privacy Notice and/or if you wish to exercise any of your rights as set out above, please contact us using <a href="mailto:privacy@moonbug.com">privacy@moonbug.com</a>.</p>
+
+      <p>Whilst we would prefer that you direct any complaints or queries you have to us first, you may also lodge a complaint to the supervisory authority applicable in your country about the way we process your personal data.  In the UK, this is the Information Commissioner's Office (ICO). The ICO is our designated data controller.</p>
 
     </React.Fragment>
   </Basic>
