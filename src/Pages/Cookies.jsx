@@ -43,13 +43,13 @@ export default function Cookies() {
       <p><strong>What are the different types of cookies?</strong></p>
 
       <p>
-        <ol>
-          <li>Strictly necessary cookies. These are cookies that are required for the operation of our Microsite. They include, for example, cookies required for security reasons or fixing bugs.</li>
-          <li>Analytical/performance cookies. They allow us to recognise and count the number of visitors and to see how visitors move around our Microsite when they are using it. This helps us to improve the way our Microsite work, for example, by ensuring that users are finding what they are looking for easily.</li>
-          <li>Functionality cookies. These are used to recognise you when you return to our Microsite, and may be used to remember your preferences and provide enhanced, more personalised features.</li>
-          <li>Targeting cookies. Targeting cookies (also known as advertising cookies) help advertisers and media publishers to deliver adverts beyond the original website you have visited, for example when you browse a shopping website and then visit a news websites. This is known as ‘retargeting’. This technique helps to ensure that the ads you receive are more relevant to you and your interests. These cookies  help to measure the effectiveness of an ad (for example, by reporting whether you have clicked on it) and can also limit the number of times that you see an ad (for example, if you see it twice but don’t click on it, you may not see it again). These cookies are usually placed by advertising networks that advertisers work with to deliver ads. They remember that you have visited a website and this information is shared with other ad networks to show you relevant ads.</li>
-          <li>Social media cookies.  These cookies are used to personalise your interaction with social media, such as Facebook, Instagram, and YouTube. Such cookies recognise users of those social media sites when you view social media content on the website. They also allow you to quickly share content across social media, through the use of simple “sharing” buttons.</li>
-          <li>Security and website integrity cookies. These cookies help keep your data and websites safe and secure.</li>
+        <ol type="a">
+          <li><strong>Strictly necessary cookies.</strong> These are cookies that are required for the operation of our Microsite. They include, for example, cookies required for security reasons or fixing bugs.</li>
+          <li><strong>Analytical/performance cookies.</strong> They allow us to recognise and count the number of visitors and to see how visitors move around our Microsite when they are using it. This helps us to improve the way our Microsite work, for example, by ensuring that users are finding what they are looking for easily.</li>
+          <li><strong>Functionality cookies.</strong> These are used to recognise you when you return to our Microsite, and may be used to remember your preferences and provide enhanced, more personalised features.</li>
+          <li><strong>Targeting cookies.</strong> Targeting cookies (also known as advertising cookies) help advertisers and media publishers to deliver adverts beyond the original website you have visited, for example when you browse a shopping website and then visit a news websites. This is known as ‘retargeting’. This technique helps to ensure that the ads you receive are more relevant to you and your interests. These cookies  help to measure the effectiveness of an ad (for example, by reporting whether you have clicked on it) and can also limit the number of times that you see an ad (for example, if you see it twice but don’t click on it, you may not see it again). These cookies are usually placed by advertising networks that advertisers work with to deliver ads. They remember that you have visited a website and this information is shared with other ad networks to show you relevant ads.</li>
+          <li><strong>Social media cookies.</strong>  These cookies are used to personalise your interaction with social media, such as Facebook, Instagram, and YouTube. Such cookies recognise users of those social media sites when you view social media content on the website. They also allow you to quickly share content across social media, through the use of simple “sharing” buttons.</li>
+          <li><strong>Security and website integrity cookies.</strong> These cookies help keep your data and websites safe and secure.</li>
         </ol>
       </p>
 
@@ -57,9 +57,9 @@ export default function Cookies() {
 
       <p>All cookies have expiration dates that determine how long they stay in your browser:</p>
 
-      <p>Session Cookies – these are temporary cookies that are placed on your device during your browsing session and then expire (and are automatically erased) whenever you close your browser.</p>
+      <p><strong>Session Cookies</strong> – these are temporary cookies that are placed on your device during your browsing session and then expire (and are automatically erased) whenever you close your browser.</p>
 
-      <p>Persistent Cookies – these are designed to last for a pre-defined period of time, which varies depending on the nature of the cookie. Persistent cookies stay in your browser until they reach their individual expiry date, or until you manually delete them.</p>
+      <p><strong>Persistent Cookies</strong> – these are designed to last for a pre-defined period of time, which varies depending on the nature of the cookie. Persistent cookies stay in your browser until they reach their individual expiry date, or until you manually delete them.</p>
 
       <p><strong>What Cookies do we use on the Microsite?</strong></p>
 
