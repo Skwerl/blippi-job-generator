@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import Box from '@mui/material/Box';
 import AspectRatio from '@mui/joy/AspectRatio';
 import Share from '../Components/Share';
@@ -13,6 +13,10 @@ export default function Main(props) {
     useEffect(() => {
         document.title = (!!pagetitle ? pagetitle : "Blippi Job Generator");
     }, [pagetitle]);
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     return <Box className="master_wrapper">
 

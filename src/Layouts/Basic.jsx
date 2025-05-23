@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import Footer from '../Components/Footer';
 
 import './Main.scss';
@@ -11,6 +11,10 @@ export default function Basic(props) {
     useEffect(() => {
         document.title = (!!pagetitle ? pagetitle : "Blippi Job Generator");
     }, [pagetitle]);
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     return <React.Fragment>
 
