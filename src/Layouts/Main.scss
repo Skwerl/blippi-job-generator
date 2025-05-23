@@ -49,5 +49,12 @@
 
 .master_wrapper .footer_panel {
   position: fixed;
+  height: auto !important;
+  overflow: initial;
   padding-bottom: 0;
+}
+
+.master_wrapper .share_button {
+  height: auto !important;
+  overflow: initial;
 }

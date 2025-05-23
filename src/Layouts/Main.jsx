@@ -18,22 +18,21 @@ export default function Main(props) {
         window.scrollTo(0, 0)
     });
 
-    return <Box className="master_wrapper">
-
-        <AspectRatio sx={{ width: "100%", maxHeight: "100vh" }}>
-            <Box className="app_wrapper" style={{
-                backgroundImage: "url('/images/blippi-bg.jpg')",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat"
-            }}><React.Fragment>
-                    {children}
-                </React.Fragment>
-            </Box>
-        </AspectRatio>
-
+    return <React.Fragment>
+        <Box className="master_wrapper">
+            <AspectRatio sx={{ width: "100%", maxHeight: "100vh" }}>
+                <Box className="app_wrapper" style={{
+                    backgroundImage: "url('/images/blippi-bg.jpg')",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat"
+                }}><React.Fragment>
+                        {children}
+                    </React.Fragment>
+                </Box>
+            </AspectRatio>
+            <Footer />
+        </Box>
         <Share />
-        <Footer />
-
-    </Box>
+    </React.Fragment>
 
 }
