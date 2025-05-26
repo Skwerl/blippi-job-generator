@@ -121,43 +121,43 @@ export const QUESTIONS = [
 export const RESULTS = {
     "Art Teacher": {
         description: "Art Teachers show students how to shape clay, mix paints, and add details to make art.",
-        audio: "/audio/Art Teacher.wav"
+        audio: "Art Teacher"
     },
     "Astronaut": {
         description: "Astronauts fly rocket ships and use space suits to explore the moon.",
-        audio: "/audio/Astronaut.wav"
+        audio: "Astronaut"
     },
     "Construction Worker": {
         description: "Construction workers use trucks and tools to build something awesome!",
-        audio: "/audio/Excavator.wav"
+        audio: "Excavator"
     },
     "Dancer": {
         description: "Dancers move their bodies to the rhythm of music and combine steps into a routine.",
-        audio: "/audio/Dancer.wav"
+        audio: "Dancer"
     },
     "Doctor": {
         description: "Doctors use tests and medical instruments to make sure their patients are healthy.",
-        audio: "/audio/Doctor.wav"
+        audio: "Doctor"
     },
     "Farmer": {
         description: "Farmers feed animals, give them exercise and a place to live. They are very caring!",
-        audio: "/audio/Farmer.wav"
+        audio: "Farmer"
     },
     "Firefighter": {
         description: "Firefighters are brave and use a hose and ladder to rescue people.",
-        audio: "/audio/Firefighter.wav"
+        audio: "Firefighter"
     },
     "Grocery Worker": {
         description: "Grocery Workers help customers find groceries and check out grocery orders.",
-        audio: "/audio/Grocer.wav"
+        audio: "Grocer"
     },
     "Monster Truck Driver": {
         description: "Monster Truck Drivers have special vehicles to put on a great show!",
-        audio: "/audio/Monster Trucks.wav"
+        audio: "Monster Trucks"
     },
     "Pizza Chef": {
         description: "Pizza chefs gather ingredients and follow a recipe to make delicious pizza.",
-        audio: "/audio/Pizza.wav"
+        audio: "Pizza"
     }
 };
 

@@ -13,7 +13,7 @@ export default function Player(props) {
   const [replayEnable, setReplayEnable] = useState(false);
 
   const AudioPlayer = new Howl({
-    src: [snippet],
+    src: [`/audio/${snippet}.mp3`, `/audio/${snippet}.wav`],
     html5: true,
     volume: 1,
     onend: function () {
