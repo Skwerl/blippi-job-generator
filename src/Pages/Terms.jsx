@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Basic from '../Layouts/Basic';
 import { LAUNCH_DATE } from "../Logic";
 
@@ -12,7 +11,7 @@ export default function Terms() {
 
       <p>Last updated {LAUNCH_DATE}.</p>
 
-      <p>THESE TERMS AND CONDITIONS OF USE (<strong>“TERMS OF USE”</strong>) APPLY TO THE MICROSITE LOCATED AT <a href="https://www.blippijobgenerator.com">www.BlippiJobGenerator.com</a> (<strong>“MICROSITE”</strong>). BY CONTINUING TO USE THE MICROSITE YOU ARE INDICATING YOUR ACCEPTANCE OF THE TERMS OF USE.</p>
+      <p>THESE TERMS AND CONDITIONS OF USE (<strong>“TERMS OF USE”</strong>) APPLY TO THE MICROSITE LOCATED AT <a href="https://www.blippijobgenerator.com" target="_blank" rel="noopener noreferrer">www.BlippiJobGenerator.com</a> (<strong>“MICROSITE”</strong>). BY CONTINUING TO USE THE MICROSITE YOU ARE INDICATING YOUR ACCEPTANCE OF THE TERMS OF USE.</p>
 
       <p>PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING THIS MICROSITE.</p>
 
@@ -24,7 +23,7 @@ export default function Terms() {
 
       <p>If you are under the age of 13, you may only use our Microsite if you have the consent of, and are supervised at all times by, a parent or guardian - you may not use our Microsite without your parent’s or guardian’s consent and supervision.</p>
 
-      <p>By using the Microsite, you confirm that you agree to comply with these Terms of Use and that you have read and acknowledge our <Link to="/privacy">Privacy Notice</Link> which sets out how we collect, use and disclose personal data from and about you, alongside our <Link to="/cookies">Cookie Policy</Link> which sets out information about the cookies used on the Microsite.</p>
+      <p>By using the Microsite, you confirm that you agree to comply with these Terms of Use and that you have read and acknowledge our <a href="https://www.blippijobgenerator.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Notice</a> which sets out how we collect, use and disclose personal data from and about you, alongside our <a href="https://www.blippijobgenerator.com/cookies-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a> which sets out information about the cookies used on the Microsite.</p>
 
       <p>If you do not agree with these Terms of Use, then you do not have permission to use our Microsite and you must stop using it immediately. We may, in our absolute discretion, suspend or prevent your access to our Microsite if you breach any provision of these Terms of Use or applicable law.</p>
 

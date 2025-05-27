@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Basic from '../Layouts/Basic';
 import { LAUNCH_DATE } from "../Logic";
 
@@ -14,11 +13,11 @@ export default function Privacy() {
 
       <p><strong>Introduction</strong></p>
 
-      <p>This Privacy Notice is issued on behalf of Moonbug Entertainment Limited, company number 11197631, data protection registration number ZA457059, with its registered office at 3rd Floor, Labs Upper Lock, 3-6 Water Lane, London NW1 8JZ, United Kingdom (<strong>“Moonbug”</strong>, <strong>“us”</strong>, <strong>“we”</strong> or <strong>“our”</strong>). We are responsible for the micro-site site located at <a href="https://www.blippijobgenerator.com">www.BlippiJobGenerator.com</a> (the <strong>“Microsite”</strong>) and this Privacy Notice applies to your use of the Microsite.</p>
+      <p>This Privacy Notice is issued on behalf of Moonbug Entertainment Limited, company number 11197631, data protection registration number ZA457059, with its registered office at 3rd Floor, Labs Upper Lock, 3-6 Water Lane, London NW1 8JZ, United Kingdom (<strong>“Moonbug”</strong>, <strong>“us”</strong>, <strong>“we”</strong> or <strong>“our”</strong>). We are responsible for the micro-site site located at <a href="https://www.blippijobgenerator.com" target="_blank" rel="noopener noreferrer">www.BlippiJobGenerator.com</a> (the <strong>“Microsite”</strong>) and this Privacy Notice applies to your use of the Microsite.</p>
 
       <p>We refer to everyone who accesses or uses the Microsite as a <strong>“User”</strong>. For the purpose of these Terms of Use, <strong>“you”</strong> and <strong>“your”</strong> means you as the User of the Microsite.</p>
 
-      <p>For further information about how we process your personal data when accessing the Microsite please visit our <Link to="/terms">Terms of Use</Link> and <Link to="/cookies">Cookie Policy</Link>.</p>
+      <p>For further information about how we process your personal data when accessing the Microsite please visit our <a href="https://www.blippijobgenerator.com/terms-of-use" target="_blank" rel="noopener noreferrer">Terms of Use</a> and <a href="https://www.blippijobgenerator.com/cookies-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a>.</p>
 
       <p><strong>What is personal data?</strong></p>
 
@@ -26,7 +25,7 @@ export default function Privacy() {
 
       <p><strong>What personal data do we collect from you?</strong></p>
 
-      <p>We do not knowingly collect personal information from users of this Microsite that are aged under 13, except for the browsing information we need to operate the Microsite. We collect this browsing information by using cookies and other similar technologies and the full details as to how we process and use cookies can be found in our <Link to="/cookies">Cookie Policy</Link>.</p>
+      <p>We do not knowingly collect personal information from users of this Microsite that are aged under 13, except for the browsing information we need to operate the Microsite. We collect this browsing information by using cookies and other similar technologies and the full details as to how we process and use cookies can be found in our <a href="https://www.blippijobgenerator.com/cookies-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a>.</p>
 
       <p><strong>Why are we using your personal data?</strong></p>
 

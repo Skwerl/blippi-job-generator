@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Basic from '../Layouts/Basic';
 import { LAUNCH_DATE } from "../Logic";
 
@@ -20,7 +19,7 @@ export default function Cookies() {
 
       <p>This Cookie Policy explains how we use “cookies” and similar technologies on the Microsite. It is designed to assist you in making informed decisions when interacting with our content, so please take a moment to read and understand this Cookie Policy.</p>
 
-      <p>For further information about how we process your personal data when accessing the Microsite please visit our <Link to="/terms">Terms of Use</Link> and <Link to="/privacy">Privavcy Policy</Link>.</p>
+      <p>For further information about how we process your personal data when accessing the Microsite please visit our <a href="https://www.blippijobgenerator.com/terms-of-use" target="_blank" rel="noopener noreferrer">Terms of Use</a> and <a href="https://www.blippijobgenerator.com/cookies-policy" target="_blank" rel="noopener noreferrer">Privavcy Policy</a>.</p>
 
       <p><strong>What are cookies or similar technologies?</strong></p>
 
@@ -67,13 +66,13 @@ export default function Cookies() {
 
       <p><strong>Strictly Necessary Cookies</strong></p>
 
-      <p>The Wix platform, which we use to operate this Microsite, has set strictly necessary cookies on the Microsite for the following purposes: fraud detection of calls; security; session identification; performance for rendering; attack detection; system effectiveness measurement, tracking session errors and issues (resilience); site experiments; API protection. These cookies will be automatically deployed onto your computer when you use the Microsite. You can review the Wix’s Cookies Policy <a href="https://support.wix.com/en/article/cookies-and-your-wix-site">here</a>.</p>
+      <p>The Wix platform, which we use to operate this Microsite, has set strictly necessary cookies on the Microsite for the following purposes: fraud detection of calls; security; session identification; performance for rendering; attack detection; system effectiveness measurement, tracking session errors and issues (resilience); site experiments; API protection. These cookies will be automatically deployed onto your computer when you use the Microsite. You can review the Wix’s Cookies Policy <a href="https://support.wix.com/en/article/cookies-and-your-wix-site" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
       <p>By continuing to browse this Microsite, you are agreeing to the use of these strictly necessary cookies.</p>
 
       <p><strong>Non-Essential Cookies</strong></p>
 
-      <p>We use Google Analytics, which is a web analytics tool that helps us understand how users engage with the Microsite. Like many services, Google Analytics uses first-party cookies to track user interactions, as in our case, where they are used to collect information about how users use our site. This information is used to compile reports and to help us improve our service. The reports disclose website trends without identifying individual visitors. For more information on Google Tag Manager, see <a href="https://support.google.com/tagmanager/answer/6102821?">here</a>. For more information on Google Analytics, see <a href="https://policies.google.com/technologies/partner-sites">here</a>⁠.</p>
+      <p>We use Google Analytics, which is a web analytics tool that helps us understand how users engage with the Microsite. Like many services, Google Analytics uses first-party cookies to track user interactions, as in our case, where they are used to collect information about how users use our site. This information is used to compile reports and to help us improve our service. The reports disclose website trends without identifying individual visitors. For more information on Google Tag Manager, see <a href="https://support.google.com/tagmanager/answer/6102821?" target="_blank" rel="noopener noreferrer">here</a>. For more information on Google Analytics, see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">here</a>⁠.</p>
 
       <p>You may accept or decline these Google Analytics cookies depending on whether you are happy or not for them to be deployed onto your device.</p>
 
@@ -101,9 +100,9 @@ export default function Cookies() {
 
       <p><strong>Using your browser settings or other tools</strong></p>
 
-      <p>You may block some cookies within the Microsite by activating the setting on your browser that allows you to refuse the setting of all or some cookies. Alternatively, you can visit <a href="https://www.allaboutcookies.org">www.allaboutcookies.org</a> which provides general information about cookies and how you can manage cookies on your device. Please note that if you use your browser settings to block all cookies (including essential cookies) you may not be able to access all or parts of this Microsite.</p>
+      <p>You may block some cookies within the Microsite by activating the setting on your browser that allows you to refuse the setting of all or some cookies. Alternatively, you can visit <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener noreferrer">www.allaboutcookies.org</a> which provides general information about cookies and how you can manage cookies on your device. Please note that if you use your browser settings to block all cookies (including essential cookies) you may not be able to access all or parts of this Microsite.</p>
 
-      <p>If you do not want to be tracked by Google Analytics on our Microsite, you can install the Google Analytics opt-out browser add-on (but this will only work on certain browsers). For further information, please consult: <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>.</p>
+      <p>If you do not want to be tracked by Google Analytics on our Microsite, you can install the Google Analytics opt-out browser add-on (but this will only work on certain browsers). For further information, please consult: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">https://tools.google.com/dlpage/gaoptout</a>.</p>
 
       <p><strong>Will this Cookie Policy change?</strong></p>
 
