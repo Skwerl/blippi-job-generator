@@ -19,7 +19,7 @@ export default function Cookies() {
 
       <p>This Cookie Policy explains how we use “cookies” and similar technologies on the Microsite. It is designed to assist you in making informed decisions when interacting with our content, so please take a moment to read and understand this Cookie Policy.</p>
 
-      <p>For further information about how we process your personal data when accessing the Microsite please visit our <a href="https://www.blippijobgenerator.com/terms-of-use" target="_blank" rel="noopener noreferrer">Terms of Use</a> and <a href="https://www.blippijobgenerator.com/cookies-policy" target="_blank" rel="noopener noreferrer">Privavcy Policy</a>.</p>
+      <p>For further information about how we process your personal data when accessing the Microsite please visit our <a href="https://www.blippijobgenerator.com/terms-of-use" target="_blank" rel="noopener noreferrer">Terms of Use</a> and <a href="https://www.blippijobgenerator.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privavcy Policy</a>.</p>
 
       <p><strong>What are cookies or similar technologies?</strong></p>
 
